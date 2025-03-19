@@ -78,10 +78,11 @@ function ProjectList() {
             <li key={index} class="max-h-[500px] lg:w-[31%] flex  justify-center"><ProjectCard tech_icons={project_icons[index]} card_details={details} /></li>
             ))}
          </ul>
+         <div class="w-9/10 h-10 m-auto my-10 flex flex-col justify-center rounded-lg bg-white/5 text-white/50 hover:text-white hover:bg-white/10 duration-500">
+            <div class=""><a class="w-full h-full flex flex-col justify-center" href={resume} download="Jalen_Neal_Resume.pdf">Download Resume</a></div>
+         </div>
       </div>
-      <div class="w-9/10 h-10 m-auto my-10 flex flex-col justify-center rounded-lg bg-white/5 text-white/50 hover:text-white hover:bg-white/10 duration-500">
-         <div class=""><a class="w-full h-full flex flex-col justify-center" href={resume} download="Jalen_Neal_Resume.pdf">Download Resume</a></div>
-      </div>
+
     </div>
   )
 }

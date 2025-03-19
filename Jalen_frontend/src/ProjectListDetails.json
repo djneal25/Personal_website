@@ -1,0 +1,33 @@
+[
+   {
+     "id": 1,
+     "title": "Software Engineering Intern – Collins Aerospace",
+     "description": "Optimized data processing and storage for the Avoidance Reroute (ARR) system by refactoring code, converting data into JSON/XML formats, and developing robust testing protocols using Python and C++."
+   },
+   {
+     "id": 2,
+     "title": "Reimagining Diversity: Web Portal Development",
+     "description": "Designed and developed a Django-based administrative portal to enhance project efficiency, security, and stakeholder communication, leveraging agile methodologies for optimal execution."
+   },
+   {
+     "id": 3,
+     "title": "Biosensing Sonar Drone Research",
+     "description": "Assisted in developing a biosensing sonar drone, optimizing a CNN protocol to enhance data analysis efficiency by 18%, improving accuracy from 72% to 90% using Python and TensorFlow."
+   },
+   {
+      "id": 4,
+      "title": "Adaptive AI: Intelligent Email Classifier",
+      "description": "Developed a fine-tuned BERT-powered email classifier, leveraging NLP and the Gmail API to track job applications with 95% accuracy."
+    },
+    {
+      "id": 5,
+      "title": "Enhanced Small Object Detection with YOLOv8",
+      "description": "Improved small object detection using YOLOv8, Slicing Aided Hyper Inferencing, and Tiling, achieving up to a 12% increase in Mean Average Precision (mAP) through rigorous testing and optimization."
+    },
+    {
+      "id": 6,
+      "title": "VT Prolog: ISO Prolog Interpreter & IDE",
+      "description": "Developed a compact ISO Prolog interpreter with an integrated IDE, enabling first-order logic queries and knowledge base creation, enhanced with concurrency, backward chaining, and tracing features."
+    }
+ ]
+ 

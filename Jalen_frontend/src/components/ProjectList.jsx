@@ -1,6 +1,7 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
 import ProjectDetails from '../ProjectListDetails.json'
+import resume from '../assets/Jalen_Neal_Resume_2025.pdf'
 
 import { FaPython, FaReact, FaDocker, FaAws, FaDatabase } from 'react-icons/fa';
 
@@ -53,7 +54,7 @@ function ProjectList() {
    ]
 
   return (
-    <div class="block w-full h-full ">
+    <div class="block w-full h-full">
       <div class="w-9/10 h-min lg:h-65 m-auto">
       <div class="flex flex-col justify-start content-start">
             <div>
@@ -71,15 +72,15 @@ function ProjectList() {
             </p>
          </div>
       </div>
-      <div class="w-full my-20">
+      <div class="w-full my-20 min-h-[800px]">
          <ul class="h-full w-9/10 m-auto flex flex-wrap justify-start gap-6">
             {ProjectDetails.map((details, index) =>(
-            <li key={index} class="lg:w-[31%]"><ProjectCard tech_icons={project_icons[index]} card_details={details} /></li>
+            <li key={index} class="max-h-[500px] lg:w-[31%] flex  justify-center"><ProjectCard tech_icons={project_icons[index]} card_details={details} /></li>
             ))}
          </ul>
-         <div class="w-9/10 h-10 m-auto my-10 flex flex-col justify-center rounded-lg bg-white/5 text-white/50 hover:text-white hover:bg-white/10 duration-500">
-            <div>Download Resume</div>
-         </div>
+      </div>
+      <div class="w-9/10 h-10 m-auto my-10 flex flex-col justify-center rounded-lg bg-white/5 text-white/50 hover:text-white hover:bg-white/10 duration-500">
+         <div class=""><a class="w-full h-full flex flex-col justify-center" href={resume} download="Jalen_Neal_Resume.pdf">Download Resume</a></div>
       </div>
     </div>
   )

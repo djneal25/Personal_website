@@ -14,7 +14,7 @@ function App() {
   return (
   <div class="scroll-smooth w-screen h-screen flex justify-center items-center flex-col overflow-auto">
     <div class=" z-[-1] fixed  w-full sm:w-4/5 max-w-[1440px] h-screen bg-[#1b1d22] outline outline-[#363b45] fixed flex justify-center items-center flex-col"></div>
-    <div class="h-full w-full block">
+    <div class="h-full w-full flex flex-col wrap">
       <div class="block w-full  h-12 mt-10 max-w-[1440px] m-auto">
         <Navbar />
       </div>    
@@ -27,22 +27,22 @@ function App() {
         </div>
       </section>
       <section id="experience">
-        <div class="block w-4/5 m-auto">
+        <div class="flex w-4/5 min-h-[1200px] m-auto">
           <ProjectList/>
         </div>
       </section>
       <section id="technology">
-        <div class="block w-4/5 max-h-[400px] m-auto my-10">
+        <div class="block w-4/5 min-h-[400px] m-auto my-10">
           <TechStack/>
         </div>
       </section>
       <section id="contact">
-        <div class="block w-4/5 h-[400px] m-auto my-30">
+        <div class="block w-4/5 min-h-[400px] m-auto my-10">
           <Contact/>
         </div>
       </section>
       <hr className="border-white/10 w-4/5 m-auto" />
-      <div class="flex flex-col justify-center w-4/5 h-[100px] m-auto">
+      <div class="flex flex-col justify-center w-4/5 min-h-[100px] m-auto">
         <Footer/>
       </div>
       <br></br>

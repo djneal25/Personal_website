@@ -31,7 +31,7 @@ function TechStack() {
             </h1>
          </div>
       </div>
-      <div class="w-full ">
+      <div class="w-full h-full">
          <ul class="h-full w-9/10 m-auto flex flex-wrap justify-start gap-6">
             <li class="w-full lg:w-[31%]">
                <TechCard Icons={programming_icons} Title={'Programming Lanuguages'}/>

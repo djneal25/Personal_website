@@ -17,7 +17,7 @@ function Navbar() {
     {/* View for Screens of size > 1024px */}
       <div class="hidden lg:flex h-full w-full justify-center items-center">
          <ul 
-         class="h-4/5 w-2/5 min-w-[500px] bg-white/10 flex flex-row gap-8 
+         class="min-h-[40px] w-2/5 min-w-[500px] bg-white/10 flex flex-row gap-8 
          justify-center items-center rounded-full font-semibold "
          >
             <li>

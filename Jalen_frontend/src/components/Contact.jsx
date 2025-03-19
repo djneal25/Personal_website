@@ -17,7 +17,7 @@ function Contact() {
             </div>
          </div>
          <div class="flex flex-col justify-center h-full grow-2 text-xl my-4">
-            <div class="w-4/5 h-4/5 m-auto flex flex-col justify-center gap-8 items-center">
+            <div class="w-full sm:w-4/5 h-4/5 m-auto flex text-sm flex-col justify-center gap-8 items-center">
                <div class="w-4/5">
                   <a
                      href="https://www.linkedin.com/in/jalen-neal-09113a190/"
@@ -49,7 +49,7 @@ function Contact() {
                      className="flex items-center h-10 space-x-6 text-white/50 hover:text-white duration-300"
                      >
                      <FaEnvelope class="block w-8 h-full" />
-                     <span className="font-medium">djneal25@gmail.com</span>
+                     <span className=" lg:font-medium">djneal25@gmail.com</span>
                   </a>
                </div>
             </div>

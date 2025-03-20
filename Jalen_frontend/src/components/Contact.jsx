@@ -6,7 +6,7 @@ import headshotPic from '../assets/headshot_transparent.png'
 function Contact() {
   return (
     <div class="flex flex-col h-4/5 justify-center">
-            <h1 class="text-4xl font-bold text-center my-6">
+            <h1 class="text-4xl font-bold text-center mb-6">
             Let's Connect!
             </h1>
       <div class="flex flex-row gap-8 w-9/10 m-auto rounded-xl">

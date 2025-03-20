@@ -72,7 +72,7 @@ function ProjectList() {
             </p>
          </div>
       </div>
-      <div class="w-full my-20 min-h-[800px]">
+      <div class="w-full min-h-[800px]">
          <ul class="h-full w-9/10 m-auto flex flex-wrap justify-start gap-6">
             {ProjectDetails.map((details, index) =>(
             <li key={index} class="max-h-[500px] lg:w-[31%] flex  justify-center"><ProjectCard tech_icons={project_icons[index]} card_details={details} /></li>
@@ -82,7 +82,6 @@ function ProjectList() {
             <div class=""><a class="w-full h-full flex flex-col justify-center" href={resume} download="Jalen_Neal_Resume.pdf">Download Resume</a></div>
          </div>
       </div>
-
     </div>
   )
 }

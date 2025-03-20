@@ -27,17 +27,17 @@ function App() {
         </div>
       </section>
       <section id="experience">
-        <div class="flex w-4/5 min-h-[1200px] m-auto">
+        <div class="flex w-4/5 min-h-[1000px] m-auto">
           <ProjectList/>
         </div>
       </section>
       <section id="technology">
-        <div class="block w-4/5 min-h-[400px] m-auto my-10">
+        <div class="block w-4/5 min-h-[300px] m-auto my-10">
           <TechStack/>
         </div>
       </section>
       <section id="contact">
-        <div class="block w-4/5 min-h-[400px] m-auto my-10">
+        <div class="block w-4/5 min-h-[300px] m-auto mb-10">
           <Contact/>
         </div>
       </section>

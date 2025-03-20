@@ -15,9 +15,11 @@ function App() {
   <div class="scroll-smooth w-screen h-screen flex justify-center items-center flex-col overflow-auto">
     <div class=" z-[-1] fixed  w-full sm:w-4/5 max-w-[1440px] h-screen bg-[#1b1d22] outline outline-[#363b45] fixed flex justify-center items-center flex-col"></div>
     <div class="h-full w-full flex flex-col wrap">
-      <div class="block w-full  h-12 mt-10 max-w-[1440px] m-auto">
-        <Navbar />
-      </div>    
+      <section id="top">
+        <div class="block w-full  h-12 mt-10 max-w-[1440px] m-auto">
+          <Navbar />
+        </div> 
+      </section>
       <section id="about">
         <div class="block w-4/5 max-w-[1440px] h-[min(10vw, 400px)] m-auto ">
           <Hero />

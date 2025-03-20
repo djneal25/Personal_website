@@ -11,12 +11,12 @@ function Contact() {
             </h1>
       <div class="flex flex-row gap-8 w-9/10 m-auto rounded-xl">
          <div class=" max-lg:hidden relative flex flex-col justify-start lg:h-100 lg:w-100">
-            <div className="relative h-4/5 w-4/5 rounded-full m-auto overflow-hidden">
+            <div className="relative h-4/5 w-4/5 rounded-full flex flex-col justify-start m-auto my-0 overflow-hidden">
                <img className="h-full w-full object-contain" src={headshotPic} alt="Profile Picture"/>
                <div className="absolute inset-0 bg-blue-500/10"></div>
             </div>
          </div>
-         <div class="flex flex-col justify-center h-full grow-2 text-xl my-4">
+         <div class="flex flex-col justify-center h-full grow-2 text-xl my-10">
             <div class="w-full sm:w-4/5 h-4/5 m-auto flex text-sm flex-col justify-center gap-8 items-center">
                <div class="w-4/5">
                   <a

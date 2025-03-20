@@ -34,13 +34,13 @@ function TechStack() {
       <div class="w-full h-full">
          <ul class="h-full w-9/10 m-auto flex flex-wrap justify-start gap-6">
             <li class="w-full lg:w-[31%]">
-               <TechCard Icons={programming_icons} Title={'Programming Lanuguages'}/>
+               <TechCard Icons={programming_icons} Title={'Programming Languages'}/>
             </li>
             <li class="w-full lg:w-[31%]">
                <TechCard Icons={framework_icons} Title={'Frameworks'}/>
             </li>
             <li class="w-full lg:w-[31%]">
-               <TechCard Icons={Cloud_icons} Title={'Devops'}/>
+               <TechCard Icons={Cloud_icons} Title={'Dev-ops'}/>
             </li>
          </ul>
       </div>

@@ -35,7 +35,7 @@ function Navbar() {
          </ul>
       </div>
    {/* View for Screens of size < 1024px */}
-      <div class=" lg:hidden w-9/10 h-full flex justify-end m-auto ">
+      <div class="lg:hidden w-9/10 h-full flex justify-end m-auto ">
          {!open ?
             <div class="bg-white/5 h-full w-12 rounded-xl flex justify-center items-center hover:text-blue-500 hover:bg-white/10 duration-200" onClick={handleClick}>
                <FaBars class="w-4/5 h-4/5"/>

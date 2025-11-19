@@ -24,27 +24,27 @@ function App() {
         <div class="block w-4/5 max-w-[1440px] h-[min(10vw, 400px)] m-auto ">
           <Hero />
         </div>
-        <div class="block w-full h-[400px] m-auto my-20">
+        <div class="block w-full max-w-[1440px] h-[400px] m-auto my-20">
           <PhotoCardList/>
         </div>
       </section>
       <section id="experience">
-        <div class="flex w-4/5 min-h-[1000px] m-auto">
+        <div class="flex w-4/5 max-w-[1440px] min-h-[1000px] m-auto">
           <ProjectList/>
         </div>
       </section>
       <section id="technology">
-        <div class="block w-4/5 min-h-[300px] m-auto my-10">
+        <div class="block w-4/5 max-w-[1440px] min-h-[300px] m-auto my-10">
           <TechStack/>
         </div>
       </section>
       <section id="contact">
-        <div class="block w-4/5 min-h-[300px] m-auto mb-10">
+        <div class="block w-4/5 max-w-[1440px] min-h-[300px] m-auto mb-10">
           <Contact/>
         </div>
       </section>
       <hr className="border-white/10 w-4/5 m-auto" />
-      <div class="flex flex-col justify-center w-4/5 min-h-[100px] m-auto">
+      <div class="flex flex-col justify-center w-4/5 max-w-[1440px] min-h-[100px] m-auto">
         <Footer/>
       </div>
       <br></br>
